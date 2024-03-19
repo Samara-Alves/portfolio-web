@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Madimi+One&family=Montserrat:ital,wght@0,600;1,600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;    
+}
+
+body {
+    height: 100vh;
+    box-sizing: border-box;
+    background-color: black;
+    color: aliceblue;
+}
+
+.titulo-destaque {
+   color: rgb(129, 129, 228);  
+  
+  }
+  
+.apresentacao {
+    margin: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.apresentacao_conteudo {
+    width:615px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.apresentacao_conteudo_titulo {
+    font-family: "Krona One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size:36px;
+}
+.apresentacao_conteudo_texto {
+    font-size: 24px;
+    font-family: "Madimi One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.apresentacao_links {
+    display: flex;
+    justify-content: space-between;
+}
+.apresentacao_links_link {
+    background-color: rgb(129, 129, 228);
+    width: 280px;
+    text-align: center;
+    border-radius: 16px;
+    font-size: 24px;
+    font-weight: 600;
+    padding:21.5px 0;
+    text-decoration: none;
+    color: #000;
+    font-family: "Montserrat", sans-serif;
+    
+}
